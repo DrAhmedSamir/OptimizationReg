@@ -1,0 +1,8 @@
+bibentry(
+  bibtype = "Manual",
+  title = "OptimizationReg: Optimization of Regression Models in Educational Psychology",
+  author = person("Ahmed", "Samir", email = "samir.megahed@gmail.com", role = c("aut", "cre")),
+  year = "2026",
+  note = "R package version 0.1.0",
+  url = "https://github.com/yourusername/OptimizationReg"
+)
