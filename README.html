@@ -355,27 +355,50 @@ display: none;
 <div id="optimizationreg" class="section level1">
 <h1>OptimizationReg
 <img role="img" src="man/figures/logo.png" align="right" height="139" /></h1>
-<p>The <strong>OptimizationReg</strong> package is an R-based
-statistical tool specifically designed for researchers in
-<strong>Educational Psychology and Psychometrics</strong>. It provides
-advanced functions for optimizing regression models to improve
-predictive accuracy and construct validity.</p>
+<p><strong>OptimizationReg</strong> is a specialized R package for
+statistical parameter estimation in <strong>Educational
+Psychology</strong>. It focuses on calculating the
+<strong>Intercept</strong> and <strong>Slope</strong> of linear models
+using two primary estimation paradigms.</p>
+<div id="estimation-frameworks" class="section level2">
+<h2>Estimation Frameworks</h2>
+<p>The package provides robust implementations for:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Ordinary Least Squares (OLS)</strong>: Via the
+<code>Minimization_Fit()</code> function, aimed at minimizing the sum of
+squared residuals to find the Best Linear Unbiased Estimator
+(BLUE).</li>
+<li><strong>Maximum Likelihood Estimation (MLE)</strong>: Via the
+<code>Maxmization_Fit()</code> function, utilizing likelihood functions
+to provide consistent and efficient parameter estimates, especially for
+large psychometric datasets.</li>
+</ol>
+</div>
 <div id="key-features" class="section level2">
 <h2>Key Features</h2>
-<p>The package includes Two specialized functions: *
-<strong><code>Minimization_Fit()</code></strong>: Optimized using
-Least-Squares Estimation. *
-<strong><code>Maxmization_Fit()</code></strong>: Optimized using Maximum
-Likelihood Estimation. * <strong>Built-in Dataset</strong>: Includes
-<code>Optimization_Data</code>, a curated dataset for testing and
-validation of Results.</p>
+<ul>
+<li>Precise calculation of <strong>Regression Intercept</strong> and
+<strong>Slope</strong>.</li>
+<li>Comparative analysis between OLS and MLE results.</li>
+<li>Built-in dataset <code>Optimization_Data</code> for educational
+research simulation.</li>
+</ul>
 </div>
 <div id="installation" class="section level2">
 <h2>Installation</h2>
-<p>You can install the development version of
-<strong>OptimizationReg</strong> from GitHub with:</p>
+<p>Install the development version from GitHub:</p>
 <p>```r # install.packages(“devtools”)
-devtools::install_github(“DrAhmedSamir/OptimizationReg”)</p>
+devtools::install_github(“DrAhmedSamir/OptimizationReg”) ## Citation If
+you use this package in your research, please cite it as: &gt;
+<strong>Samir, A. (2026). OptimizationReg: OLS and MLE Parameter
+Estimation in Educational Research. Zagazig University,
+Egypt.</strong></p>
+</div>
+<div id="author" class="section level2">
+<h2>Author</h2>
+<p><strong>Dr. Ahmed Samir Megahed</strong> Assistant Professor of
+Educational Psychology, Faculty of Education, Zagazig University,
+Egypt.</p>
 </div>
 </div>
 

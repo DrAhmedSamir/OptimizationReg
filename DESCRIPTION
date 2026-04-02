@@ -2,10 +2,11 @@ Package: OptimizationReg
 Title: This package calculates Minimization and Maximization for 
      Linear regression Analysis
 Version: 0.0.0.9000
-Authors@R: 
-    person("Ahmed", "Samir", , "samir.megahed@gmail.com",
-    role= c("aut", "cre"))
-Description: This package calculates Minimization and Maximization for Linear regression Analysis.
+Author: Ahmed Samir [aut, cre] (<https://orcid.org/0000-0000-0000-0000>)
+Maintainer: Ahmed Samir <samir.megahed@gmail.com>
+Description: A specialized tool for estimating regression parameters (Intercept and Slope) 
+    using Ordinary Least Squares (OLS) and Maximum Likelihood Estimation (MLE) 
+    within educational psychology research.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
