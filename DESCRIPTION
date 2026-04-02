@@ -15,3 +15,5 @@ Imports:
 Depends: 
     R (>= 3.5)
 LazyData: true
+URL: https://github.com/DrAhmedSamir/OptimizationReg
+BugReports: https://github.com/DrAhmedSamir/OptimizationReg/issues
