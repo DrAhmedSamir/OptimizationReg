@@ -1,0 +1,16 @@
+# OptimizationReg <img src="man/figures/logo.png" align="right" height="139" />
+
+The **OptimizationReg** package is an R-based statistical tool specifically designed for researchers in **Educational Psychology and Psychometrics**. It provides advanced functions for optimizing regression models to improve predictive accuracy and construct validity.
+
+## Key Features
+The package includes Two specialized functions:
+* **`Minimization_Fit()`**: Optimized using Least-Squares Estimation.
+* **`Maxmization_Fit()`**: Optimized using Maximum Likelihood Estimation.
+* **Built-in Dataset**: Includes `Optimization_Data`, a curated dataset for testing and validation of Results.
+
+## Installation
+You can install the development version of **OptimizationReg** from GitHub with:
+
+```r
+# install.packages("devtools")
+devtools::install_github("DrAhmedSamir/OptimizationReg")
